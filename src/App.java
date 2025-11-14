@@ -13,6 +13,7 @@ public class App {
         System.out.println("Hello, World!");
         Solution solution = new Solution();
         String[] strs = { "eat", "tea", "tan", "ate", "nat", "bat" };
+        // String[] strs = { "eat", "tea", "ate" };
         List<List<String>> groupAnagrams = solution.groupAnagrams(strs);
         System.out.println("the given input is:" + Arrays.toString(strs));
         System.out.println("The group anagrams for the given input are: ");
